@@ -1,3 +1,5 @@
-name: Your New Jekyll Site
+name: Awesome
 markdown: redcarpet
 pygments: true
+port: 4000
+safe: true
