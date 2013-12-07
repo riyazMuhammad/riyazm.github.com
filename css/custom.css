@@ -1,8 +1,10 @@
+body{	
+	font-family: 'noticia text', serif;	
+	color: #7E7E7E;	
+}
 .header{
 	margin-top: 20px;
 	min-height: 100px;
-	color: #7E7E7E;	
-	font-family: 'noticia text', serif;
 }
 .header .name{	
 	font-size: 46px;
@@ -16,7 +18,7 @@
 }
 .content{
 	background: #EAE5E5;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 20px;
 }
 .footer{
@@ -45,4 +47,17 @@
 }
 .powered{
 	font-size: 10px;
+}
+#pro_image img{
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+}
+.font_1{
+	font-size: 70px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.font_2{
+	font-size: 50px;
 }
