@@ -17,7 +17,10 @@ body{
 	line-height: 1.2em;
 }
 .content{
-	background: #EAE5E5;
+	background: #EAE5E5;	
+}
+.content .container{
+	background: #EAE5E5;	
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -25,10 +28,13 @@ body{
 	background: #E83556;
 	border-top: 3px solid #FFFFFF;
 	color: #FFFFFF;
-	padding-top: 40px;
-	min-height: 200px;
 	font-family: 'noticia text', serif;
 	font-size: 13px;
+}
+.footer .container{	
+	padding-top: 40px;
+	background: #E83556;	
+	min-height: 200px;
 }
 .footer_icon {	
 	background-color: rgb(97, 207, 211);
