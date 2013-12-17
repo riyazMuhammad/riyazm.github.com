@@ -1,69 +1,139 @@
 body{	
-	font-family: 'noticia text', serif;	
-	color: #7E7E7E;	
+    font-family: 'noticia text', serif;	
+    color: #7E7E7E;	
 }
 .header{
-	margin-top: 20px;
-	min-height: 100px;
+    margin-top: 20px;
+    min-height: 100px;
 }
 .header .name{	
-	font-size: 46px;
-	font-weight: bold;
-	line-height: 1.2em;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1.2em;
 
 }
 .header .title{
-	font-size: 17px;
-	line-height: 1.2em;
+    font-size: 17px;
+    line-height: 1.2em;
 }
 .content{
-	background: #EAE5E5;	
+    background: #EAE5E5;	
 }
 .content .container{
-	background: #EAE5E5;	
-	padding-top: 40px;
-	padding-bottom: 40px;
+    background: #EAE5E5;	
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .footer{
-	background: #E83556;
-	border-top: 3px solid #FFFFFF;
-	color: #FFFFFF;
-	font-family: 'noticia text', serif;
-	font-size: 13px;
+    background: #E83556;
+    border-top: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'noticia text', serif;
+    font-size: 13px;
 }
 .footer .container{	
-	padding-top: 40px;
-	background: #E83556;	
-	min-height: 200px;
+    padding-top: 40px;
+    background: #E83556;	
+    min-height: 200px;
 }
 .footer_icon {	
-	background-color: rgb(97, 207, 211);
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	border-radius: 100px;
-	padding: 15px;
-	width: 30px;
-	height: 30px;
+    background-color: rgb(97, 207, 211);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 15px;
+    width: 30px;
+    height: 30px;
 }
 .footer a {
-	text-decoration: none;
-	color: #FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .follow #fb{
 }
 .powered{
-	font-size: 10px;
+    font-size: 10px;
 }
 #pro_image img{
-	-webkit-border-radius: 200px;
-	-moz-border-radius: 200px;
-	border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
 }
 .font_1{
-	font-size: 70px;
-	font-weight: bold;
-	line-height: 40px;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 40px;
 }
 .font_2{
-	font-size: 50px;
+    font-size: 50px;
+}
+.about-me-circle{
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    color: #FFFFFF;
+    line-height: 95px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+.bg-color-1{
+    background-color: rgb(232, 53, 86);
+}    
+.about-me-circles .bg-color-1:hover{
+    background-color: rgb(182, 9, 41);
+}
+.bg-color-2{
+    background-color: rgb(97, 207, 211);
+}
+.about-me-circles .bg-color-2:hover{
+    background-color: rgb(15, 145, 150)
+}
+.bg-color-3{
+    background-color: rgb(209, 200, 37);
+}
+.about-me-circles .bg-color-3:hover{
+    background-color: rgb(151, 144, 16);
+}
+.about-me-circles{
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.about-me-circles a{
+    text-decoration: none;
+}
+.about-me-circles a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#my_story{
+    font-size: 14px;
+    line-height: 1.3em;
+}
+.resume-para{
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5em;
+    border-top: 1px solid #CCCCCC;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.resume-circle{
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    color: #FFFFFF;
+    line-height: 95px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+.resume-para .last{
+    padding-top: 20px;
 }
