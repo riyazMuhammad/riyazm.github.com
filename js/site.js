@@ -21,24 +21,24 @@ function positionFooter() {
             footerTop = 0,
             $footer = $("#footer");
     footerHeight = $footer.height();
-    footerTop = ($(window).scrollTop() + $(window).height() - footerHeight) + "px";
+    footerTop = ($(window).scrollTop() + $(window).height() - (footerHeight)) + "px";
 
 
-//    console.log("Document height: ", $(document.body).height());
-//    console.log("Window height: ", $(window).height());
-//    console.log("Window scroll: ", $(window).scrollTop());
-//    console.log("Footer height: ", footerHeight);
-//    console.log("Footer top: ", footerTop);
-//    console.log("-----------");
+    console.log("Document height: ", $('body').height());
+    console.log("Window height: ", $(window).height());
+    console.log("Window scroll: ", $(window).scrollTop());
+    console.log("Footer height: ", footerHeight);
+    console.log("Footer top: ", footerTop);
+    console.log("-----------");
 
 
-    if (($(document.body).height() + footerHeight) < $(window).height()) {
+    if (($('body').height() + (footerHeight / 2)) < $(window).height()) {
         console.log("found problem");
         $footer.css({
             position: "absolute"
         }).stop().animate({
             top: footerTop
-        }, -1);
+        });
     } else {
         console.log("no problem");
         $footer.css({
