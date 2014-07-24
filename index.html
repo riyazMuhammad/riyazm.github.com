@@ -8,9 +8,9 @@ title: Muhammad Riyaz
         <div class="font_1">Hello,</div>
         <div class="font_2">a bit about me:</div>
         <div class="span-12 last about-me-circles">
-            <a href="#" id="show-resume" class="span-4 about-me-circle bg-color-1 fadeIn animated">My Resume</a>
-            <a href="#" class="span-4 about-me-circle bg-color-2 fadeIn animated">My Work</a>
-            <a href="#" class="span-4 about-me-circle bg-color-3 fadeIn animated">My Skills</a>
+            <a href="#" id="show-resume" class="span-4 about-me-circle bg-color-1 redirection" data-from="#index-content" data-to="#resume-content">My Resume</a>
+            <!--<a href="#" id="show-work" class="span-4 about-me-circle bg-color-2 redirection" data-from="#index-content" data-to="#work">My Work</a>-->
+            <a href="#" id="show-skill" class="span-4 about-me-circle bg-color-3 redirection" data-from="#index-content" data-to="#skill-content">My Skills</a>
         </div>
         <div class="clear"></div>
         <div id="my_story">
@@ -23,6 +23,11 @@ title: Muhammad Riyaz
 </div>
 <div class="clear"></div>
 <div id="resume-content" style="display: none">
+    <div class="shortcuts">
+        <a href="#" class="home redirection" data-from="#resume-content" data-to="#index-content">Home</a>
+        <!--<a href="#" class="my-work redirection" data-from="#resume-content" data-to="#work-content">My Work</a>-->
+        <a href="#" class="my-skills redirection" data-from="#resume-content" data-to="#skill-content">My Skills</a>
+    </div>
     <h2 class="font_2">RESUME</h2>
     <div class="resume-para span-24" id="professional">
         <span class="span-4 resume-circle bg-color-1">Professional</span>
@@ -41,7 +46,7 @@ title: Muhammad Riyaz
                 <li>Developing, Testing, Deploying Web application. Used Yii as backend framework(PHP & MySql).</li>
                 <li>Developing APIs for any other platforms to pull data from. A Simple API architecture with strong security which spits JSON formatted data.</li>
             </ul>
-            <div><b>Skill set:</b> Android, HTML, CSS, Javascript, PHP(Yii, MongoDB, MySql, Microsoft Azure, Amazon Web Services(EC2, S3)</div>
+            <div><b>Skill set:</b> Android, HTML, CSS, Javascript, PHP(Yii), MongoDB, MySql, Microsoft Azure, Amazon Web Services(EC2, S3)</div>
             <br/>
             <h4>Lead Developer @ <a href="http://www.orchidinformatics.com/">Orchid Informatics</a>. Februay 2012 - March 2013</h4>
             <div>We @ Orchid Informatics develop useful web and mobile applications for our customers.</div>
@@ -68,6 +73,53 @@ title: Muhammad Riyaz
         </span>
     </div>
 </div>
-<div id="work-content">    
-    <h1>This is awesome</h1>
+<div class="clear"></div>
+<div id="work-content" style="display: none">    
+    <div class="shortcuts">
+        <a href="#" class="home redirection" data-from="#work-content" data-to="#index-content">Home</a>
+        <a href="#" class="my-resume redirection" data-from="#work-content" data-to="#resume-content">My Resume</a>
+        <a href="#" class="my-skills redirection" data-from="#work-content" data-to="#skill-content">My Skills</a>
+    </div>
+    <h1>Works</h1>
 </div>
+<div class="clear"></div>
+<div id="skill-content" style="display: none">    
+    <div>
+    <div class="shortcuts">
+        <a href="#" class="home redirection" data-from="#skill-content" data-to="#index-content">Home</a>
+        <a href="#" class="my-resume redirection" data-from="#skill-content" data-to="#resume-content">My Resume</a>
+        <!--<a href="#" class="my-work" data-from="#skill-content" data-to="#work-content">My Work</a>-->
+    </div>
+    <h1>Skills</h1>
+    <ul class="tags">
+        <li><a href="#">PHP</a></li>
+        <li><a href="#">Yii</a></li>
+        <li><a href="#">CodeIgniter</a></li>
+        <li><a href="#">Magento</a></li>
+        <li><a href="#">MySQL</a></li>
+        <li><a href="#">jQuery</a></li>
+        <li><a href="#">Android Development</a></li>
+        <li><a href="#">Core Java</a></li>
+        <li><a href="#">XHTML</a></li>
+        <li><a href="#">Android</a></li>
+        <li><a href="#">AJAX</a></li>
+        <li><a href="#">SQLite</a></li>
+        <li><a href="#">MODx</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">Drupal</a></li>
+        <li><a href="#">Git</a></li>
+        <li><a href="#">CSS3</a></li>
+        <li><a href="#">XML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">MongoDB</a></li>
+        <li><a href="#">JSON</a></li>
+        <li><a href="#">Linux</a></li>
+        <li><a href="#">Windows Azure</a></li>
+        <li><a href="#">Web Applications</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">Amazon Web Services (AWS)</a></li>
+        <li><a href="#">Web SQL</a></li>
+    </ul>
+</div>
+
