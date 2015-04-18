@@ -134,7 +134,7 @@ body{
     width: 100px;
     height: 100px;
     color: #FFFFFF;
-    line-height: 95px;
+    line-height: 30px;
     text-align: center;
     text-transform: uppercase;
     margin-right: 25px;
@@ -263,4 +263,12 @@ body{
 .gears a:hover{background:#555;}
 .gears{
     padding-left: 0;
+}
+.job-title{
+    font-size: 16px;
+    color: black;
+}
+.header .contact{
+    margin-right: 0;
+    margin-top: 15px;
 }
