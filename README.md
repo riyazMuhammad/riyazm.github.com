@@ -1,4 +1,1 @@
-riyazm.github.com
-=================
-
-My Site in Jekyll
+Source Code for riyazm.com
